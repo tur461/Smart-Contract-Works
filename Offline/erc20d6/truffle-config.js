@@ -3,6 +3,7 @@ require('dotenv').config();
 
 const token = process.env.TOKEN;
 const mnemonic = process.env.MNEMONIC;
+const etherscanKey = process.env.ETHER_SCAN_KEY;
 
 module.exports = {
   
@@ -34,6 +35,6 @@ module.exports = {
     'truffle-plugin-verify'
   ],
   api_keys: {
-    etherscan: 'Y6PMZSW9N93SV5ZHMTMXXX4FJRAVMEZ7KC',
+    etherscan: etherscanKey,
   }
 };
