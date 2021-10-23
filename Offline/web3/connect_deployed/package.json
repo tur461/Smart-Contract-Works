@@ -1,0 +1,23 @@
+{
+  "name": "connect_deployed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.7",
+    "openzeppelin-solidity": "4.3.2",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18"
+  }
+}
